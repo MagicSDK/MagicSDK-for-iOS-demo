@@ -1,0 +1,1 @@
+../../../../TUTUMagicSDK/TUTUMagic.framework/Versions/A/Headers/TuSDKFilterLocalPackage.h

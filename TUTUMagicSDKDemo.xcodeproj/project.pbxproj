@@ -1,0 +1,858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8109703C6B7B142D5F77A525 /* libPods-TUTUMagicSDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 908B4872462CC188816FE5E1 /* libPods-TUTUMagicSDKDemo.a */; };
+		F8075BEB1F7E4A9A006D0BDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075BEA1F7E4A9A006D0BDA /* AppDelegate.m */; };
+		F8075BF91F7E4A9A006D0BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075BF81F7E4A9A006D0BDA /* main.m */; };
+		F8075C031F7E4A9A006D0BDA /* TUTUMagicSDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075C021F7E4A9A006D0BDA /* TUTUMagicSDKDemoTests.m */; };
+		F8075C0E1F7E4A9A006D0BDA /* TUTUMagicSDKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075C0D1F7E4A9A006D0BDA /* TUTUMagicSDKDemoUITests.m */; };
+		F8075C421F7E4DA6006D0BDA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8075C1C1F7E4D9E006D0BDA /* Localizable.strings */; };
+		F8075C431F7E4DA6006D0BDA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8075C1C1F7E4D9E006D0BDA /* Localizable.strings */; };
+		F8075C441F7E4DA7006D0BDA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8075C1C1F7E4D9E006D0BDA /* Localizable.strings */; };
+		F8075C461F7E4DB5006D0BDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8075C271F7E4D9E006D0BDA /* Images.xcassets */; };
+		F8075C471F7E4DB5006D0BDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8075C271F7E4D9E006D0BDA /* Images.xcassets */; };
+		F8075C4E1F7E4DCD006D0BDA /* sample_watermark.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C2A1F7E4D9E006D0BDA /* sample_watermark.png */; };
+		F8075C4F1F7E4DCD006D0BDA /* sample_watermark.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C2A1F7E4D9E006D0BDA /* sample_watermark.png */; };
+		F8075C501F7E4DCE006D0BDA /* sample_watermark.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C2A1F7E4D9E006D0BDA /* sample_watermark.png */; };
+		F8075C511F7E4DD0006D0BDA /* TuSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F8075C2B1F7E4D9E006D0BDA /* TuSDK.bundle */; };
+		F8075C521F7E4DD1006D0BDA /* TuSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F8075C2B1F7E4D9E006D0BDA /* TuSDK.bundle */; };
+		F8075C531F7E4DD1006D0BDA /* TuSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F8075C2B1F7E4D9E006D0BDA /* TuSDK.bundle */; };
+		F8EA73251F7E535B00E02D17 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EA73241F7E535B00E02D17 /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F8EA73261F7E53C100E02D17 /* DemoComponentListController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075C301F7E4D9E006D0BDA /* DemoComponentListController.m */; };
+		F8EA73271F7E53C400E02D17 /* DemoRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075C321F7E4D9E006D0BDA /* DemoRootView.m */; };
+		F8EA73281F7E53C600E02D17 /* DemoRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075C341F7E4D9E006D0BDA /* DemoRootViewController.m */; };
+		F8EA73291F7E53CA00E02D17 /* SampleBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075C411F7E4D9E006D0BDA /* SampleBase.m */; };
+		F8EA732A1F7E53CF00E02D17 /* AlbumComponentSample.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075C381F7E4D9E006D0BDA /* AlbumComponentSample.m */; };
+		F8EA732B1F7E53D100E02D17 /* AlbumMultipleComponentSample.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075C3A1F7E4D9E006D0BDA /* AlbumMultipleComponentSample.m */; };
+		F8EA732C1F7E53D600E02D17 /* CameraComponentSample.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075C3D1F7E4D9E006D0BDA /* CameraComponentSample.m */; };
+		F8EA732D1F7E53D800E02D17 /* EditMultipleComponentSample.m in Sources */ = {isa = PBXBuildFile; fileRef = F8075C3F1F7E4D9E006D0BDA /* EditMultipleComponentSample.m */; };
+		F8EA732E1F7E53E700E02D17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EA73301F7E53E700E02D17 /* Main.storyboard */; };
+		F8EA73311F7E599D00E02D17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8075C271F7E4D9E006D0BDA /* Images.xcassets */; };
+		F8EA73321F7E59BC00E02D17 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C211F7E4D9E006D0BDA /* bg@2x.png */; };
+		F8EA73331F7E59BE00E02D17 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C211F7E4D9E006D0BDA /* bg@2x.png */; };
+		F8EA73341F7E59BE00E02D17 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C211F7E4D9E006D0BDA /* bg@2x.png */; };
+		F8EA73351F7E59C100E02D17 /* bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C221F7E4D9E006D0BDA /* bg@3x.png */; };
+		F8EA73361F7E59C100E02D17 /* bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C221F7E4D9E006D0BDA /* bg@3x.png */; };
+		F8EA73371F7E59C100E02D17 /* bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C221F7E4D9E006D0BDA /* bg@3x.png */; };
+		F8EA73381F7E59C400E02D17 /* camera_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C231F7E4D9E006D0BDA /* camera_icon@2x.png */; };
+		F8EA73391F7E59C400E02D17 /* camera_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C231F7E4D9E006D0BDA /* camera_icon@2x.png */; };
+		F8EA733A1F7E59C500E02D17 /* camera_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C231F7E4D9E006D0BDA /* camera_icon@2x.png */; };
+		F8EA733B1F7E59C700E02D17 /* camera_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C241F7E4D9E006D0BDA /* camera_icon@3x.png */; };
+		F8EA733C1F7E59C700E02D17 /* camera_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C241F7E4D9E006D0BDA /* camera_icon@3x.png */; };
+		F8EA733D1F7E59C800E02D17 /* camera_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C241F7E4D9E006D0BDA /* camera_icon@3x.png */; };
+		F8EA733E1F7E59CA00E02D17 /* edit_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C251F7E4D9E006D0BDA /* edit_icon@2x.png */; };
+		F8EA733F1F7E59CA00E02D17 /* edit_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C251F7E4D9E006D0BDA /* edit_icon@2x.png */; };
+		F8EA73401F7E59CA00E02D17 /* edit_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C251F7E4D9E006D0BDA /* edit_icon@2x.png */; };
+		F8EA73411F7E59CD00E02D17 /* edit_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C261F7E4D9E006D0BDA /* edit_icon@3x.png */; };
+		F8EA73421F7E59CD00E02D17 /* edit_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C261F7E4D9E006D0BDA /* edit_icon@3x.png */; };
+		F8EA73431F7E59CE00E02D17 /* edit_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8075C261F7E4D9E006D0BDA /* edit_icon@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8075BFF1F7E4A9A006D0BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8075BDE1F7E4A99006D0BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8075BE51F7E4A99006D0BDA;
+			remoteInfo = TUTUMagicSDKDemo;
+		};
+		F8075C0A1F7E4A9A006D0BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8075BDE1F7E4A99006D0BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8075BE51F7E4A99006D0BDA;
+			remoteInfo = TUTUMagicSDKDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F90528D5E18980A93B613D /* Pods-TUTUMagicSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TUTUMagicSDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TUTUMagicSDKDemo/Pods-TUTUMagicSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		908B4872462CC188816FE5E1 /* libPods-TUTUMagicSDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TUTUMagicSDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE32C4713D12A4B02E414CC4 /* Pods-TUTUMagicSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TUTUMagicSDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TUTUMagicSDKDemo/Pods-TUTUMagicSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F8075BE61F7E4A99006D0BDA /* TUTUMagicSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TUTUMagicSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8075BE91F7E4A9A006D0BDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8075BEA1F7E4A9A006D0BDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8075BF71F7E4A9A006D0BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8075BF81F7E4A9A006D0BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8075BFE1F7E4A9A006D0BDA /* TUTUMagicSDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUTUMagicSDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8075C021F7E4A9A006D0BDA /* TUTUMagicSDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TUTUMagicSDKDemoTests.m; sourceTree = "<group>"; };
+		F8075C041F7E4A9A006D0BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8075C091F7E4A9A006D0BDA /* TUTUMagicSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUTUMagicSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8075C0D1F7E4A9A006D0BDA /* TUTUMagicSDKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TUTUMagicSDKDemoUITests.m; sourceTree = "<group>"; };
+		F8075C0F1F7E4A9A006D0BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8075C1D1F7E4D9E006D0BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F8075C1F1F7E4D9E006D0BDA /* En */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = En; path = En.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F8075C211F7E4D9E006D0BDA /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		F8075C221F7E4D9E006D0BDA /* bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@3x.png"; sourceTree = "<group>"; };
+		F8075C231F7E4D9E006D0BDA /* camera_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_icon@2x.png"; sourceTree = "<group>"; };
+		F8075C241F7E4D9E006D0BDA /* camera_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_icon@3x.png"; sourceTree = "<group>"; };
+		F8075C251F7E4D9E006D0BDA /* edit_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit_icon@2x.png"; sourceTree = "<group>"; };
+		F8075C261F7E4D9E006D0BDA /* edit_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit_icon@3x.png"; sourceTree = "<group>"; };
+		F8075C271F7E4D9E006D0BDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8075C2A1F7E4D9E006D0BDA /* sample_watermark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample_watermark.png; sourceTree = "<group>"; };
+		F8075C2B1F7E4D9E006D0BDA /* TuSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TuSDK.bundle; sourceTree = "<group>"; };
+		F8075C2C1F7E4D9E006D0BDA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F8075C2D1F7E4D9E006D0BDA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		F8075C2F1F7E4D9E006D0BDA /* DemoComponentListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoComponentListController.h; sourceTree = "<group>"; };
+		F8075C301F7E4D9E006D0BDA /* DemoComponentListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoComponentListController.m; sourceTree = "<group>"; };
+		F8075C311F7E4D9E006D0BDA /* DemoRootView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoRootView.h; sourceTree = "<group>"; };
+		F8075C321F7E4D9E006D0BDA /* DemoRootView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoRootView.m; sourceTree = "<group>"; };
+		F8075C331F7E4D9E006D0BDA /* DemoRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoRootViewController.h; sourceTree = "<group>"; };
+		F8075C341F7E4D9E006D0BDA /* DemoRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoRootViewController.m; sourceTree = "<group>"; };
+		F8075C371F7E4D9E006D0BDA /* AlbumComponentSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumComponentSample.h; sourceTree = "<group>"; };
+		F8075C381F7E4D9E006D0BDA /* AlbumComponentSample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumComponentSample.m; sourceTree = "<group>"; };
+		F8075C391F7E4D9E006D0BDA /* AlbumMultipleComponentSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlbumMultipleComponentSample.h; sourceTree = "<group>"; };
+		F8075C3A1F7E4D9E006D0BDA /* AlbumMultipleComponentSample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlbumMultipleComponentSample.m; sourceTree = "<group>"; };
+		F8075C3C1F7E4D9E006D0BDA /* CameraComponentSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraComponentSample.h; sourceTree = "<group>"; };
+		F8075C3D1F7E4D9E006D0BDA /* CameraComponentSample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraComponentSample.m; sourceTree = "<group>"; };
+		F8075C3E1F7E4D9E006D0BDA /* EditMultipleComponentSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditMultipleComponentSample.h; sourceTree = "<group>"; };
+		F8075C3F1F7E4D9E006D0BDA /* EditMultipleComponentSample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditMultipleComponentSample.m; sourceTree = "<group>"; };
+		F8075C401F7E4D9E006D0BDA /* SampleBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleBase.h; sourceTree = "<group>"; };
+		F8075C411F7E4D9E006D0BDA /* SampleBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleBase.m; sourceTree = "<group>"; };
+		F8075C591F7E5287006D0BDA /* TUTUMagicSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TUTUMagicSDK.h; sourceTree = "<group>"; };
+		F8EA73241F7E535B00E02D17 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		F8EA732F1F7E53E700E02D17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8075BE31F7E4A99006D0BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EA73251F7E535B00E02D17 /* Photos.framework in Frameworks */,
+				8109703C6B7B142D5F77A525 /* libPods-TUTUMagicSDKDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8075BFB1F7E4A9A006D0BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8075C061F7E4A9A006D0BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		606EBA344E6315BCFFE9EE20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05F90528D5E18980A93B613D /* Pods-TUTUMagicSDKDemo.debug.xcconfig */,
+				AE32C4713D12A4B02E414CC4 /* Pods-TUTUMagicSDKDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8075BDD1F7E4A99006D0BDA = {
+			isa = PBXGroup;
+			children = (
+				F8075BE81F7E4A9A006D0BDA /* TUTUMagicSDKDemo */,
+				F8075C011F7E4A9A006D0BDA /* TUTUMagicSDKDemoTests */,
+				F8075C0C1F7E4A9A006D0BDA /* TUTUMagicSDKDemoUITests */,
+				F8075BE71F7E4A99006D0BDA /* Products */,
+				F8EA73231F7E535B00E02D17 /* Frameworks */,
+				606EBA344E6315BCFFE9EE20 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F8075BE71F7E4A99006D0BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8075BE61F7E4A99006D0BDA /* TUTUMagicSDKDemo.app */,
+				F8075BFE1F7E4A9A006D0BDA /* TUTUMagicSDKDemoTests.xctest */,
+				F8075C091F7E4A9A006D0BDA /* TUTUMagicSDKDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8075BE81F7E4A9A006D0BDA /* TUTUMagicSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F8075C1B1F7E4D9E006D0BDA /* Resources */,
+				F8075C2E1F7E4D9E006D0BDA /* Source */,
+				F8075BE91F7E4A9A006D0BDA /* AppDelegate.h */,
+				F8075BEA1F7E4A9A006D0BDA /* AppDelegate.m */,
+				F8075BF71F7E4A9A006D0BDA /* Info.plist */,
+				F8075BF81F7E4A9A006D0BDA /* main.m */,
+				F8EA73301F7E53E700E02D17 /* Main.storyboard */,
+				F8075C591F7E5287006D0BDA /* TUTUMagicSDK.h */,
+			);
+			path = TUTUMagicSDKDemo;
+			sourceTree = "<group>";
+		};
+		F8075C011F7E4A9A006D0BDA /* TUTUMagicSDKDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8075C021F7E4A9A006D0BDA /* TUTUMagicSDKDemoTests.m */,
+				F8075C041F7E4A9A006D0BDA /* Info.plist */,
+			);
+			path = TUTUMagicSDKDemoTests;
+			sourceTree = "<group>";
+		};
+		F8075C0C1F7E4A9A006D0BDA /* TUTUMagicSDKDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8075C0D1F7E4A9A006D0BDA /* TUTUMagicSDKDemoUITests.m */,
+				F8075C0F1F7E4A9A006D0BDA /* Info.plist */,
+			);
+			path = TUTUMagicSDKDemoUITests;
+			sourceTree = "<group>";
+		};
+		F8075C1B1F7E4D9E006D0BDA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8075C1C1F7E4D9E006D0BDA /* Localizable.strings */,
+				F8075C201F7E4D9E006D0BDA /* ImageResource */,
+				F8075C2A1F7E4D9E006D0BDA /* sample_watermark.png */,
+				F8075C271F7E4D9E006D0BDA /* Images.xcassets */,
+				F8075C2B1F7E4D9E006D0BDA /* TuSDK.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F8075C201F7E4D9E006D0BDA /* ImageResource */ = {
+			isa = PBXGroup;
+			children = (
+				F8075C211F7E4D9E006D0BDA /* bg@2x.png */,
+				F8075C221F7E4D9E006D0BDA /* bg@3x.png */,
+				F8075C231F7E4D9E006D0BDA /* camera_icon@2x.png */,
+				F8075C241F7E4D9E006D0BDA /* camera_icon@3x.png */,
+				F8075C251F7E4D9E006D0BDA /* edit_icon@2x.png */,
+				F8075C261F7E4D9E006D0BDA /* edit_icon@3x.png */,
+			);
+			path = ImageResource;
+			sourceTree = "<group>";
+		};
+		F8075C2E1F7E4D9E006D0BDA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F8075C2F1F7E4D9E006D0BDA /* DemoComponentListController.h */,
+				F8075C301F7E4D9E006D0BDA /* DemoComponentListController.m */,
+				F8075C311F7E4D9E006D0BDA /* DemoRootView.h */,
+				F8075C321F7E4D9E006D0BDA /* DemoRootView.m */,
+				F8075C331F7E4D9E006D0BDA /* DemoRootViewController.h */,
+				F8075C341F7E4D9E006D0BDA /* DemoRootViewController.m */,
+				F8075C351F7E4D9E006D0BDA /* GeeV1 */,
+				F8075C401F7E4D9E006D0BDA /* SampleBase.h */,
+				F8075C411F7E4D9E006D0BDA /* SampleBase.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F8075C351F7E4D9E006D0BDA /* GeeV1 */ = {
+			isa = PBXGroup;
+			children = (
+				F8075C361F7E4D9E006D0BDA /* Component */,
+				F8075C3B1F7E4D9E006D0BDA /* Suite */,
+			);
+			path = GeeV1;
+			sourceTree = "<group>";
+		};
+		F8075C361F7E4D9E006D0BDA /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				F8075C371F7E4D9E006D0BDA /* AlbumComponentSample.h */,
+				F8075C381F7E4D9E006D0BDA /* AlbumComponentSample.m */,
+				F8075C391F7E4D9E006D0BDA /* AlbumMultipleComponentSample.h */,
+				F8075C3A1F7E4D9E006D0BDA /* AlbumMultipleComponentSample.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		F8075C3B1F7E4D9E006D0BDA /* Suite */ = {
+			isa = PBXGroup;
+			children = (
+				F8075C3C1F7E4D9E006D0BDA /* CameraComponentSample.h */,
+				F8075C3D1F7E4D9E006D0BDA /* CameraComponentSample.m */,
+				F8075C3E1F7E4D9E006D0BDA /* EditMultipleComponentSample.h */,
+				F8075C3F1F7E4D9E006D0BDA /* EditMultipleComponentSample.m */,
+			);
+			path = Suite;
+			sourceTree = "<group>";
+		};
+		F8EA73231F7E535B00E02D17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8EA73241F7E535B00E02D17 /* Photos.framework */,
+				908B4872462CC188816FE5E1 /* libPods-TUTUMagicSDKDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8075BE51F7E4A99006D0BDA /* TUTUMagicSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8075C121F7E4A9A006D0BDA /* Build configuration list for PBXNativeTarget "TUTUMagicSDKDemo" */;
+			buildPhases = (
+				824D6B0EA94A071261352B1F /* [CP] Check Pods Manifest.lock */,
+				F8075BE21F7E4A99006D0BDA /* Sources */,
+				F8075BE31F7E4A99006D0BDA /* Frameworks */,
+				F8075BE41F7E4A99006D0BDA /* Resources */,
+				8A8A161EB53FF38C4B5DF1E6 /* [CP] Embed Pods Frameworks */,
+				F573C308FCD2EF4B4C00B899 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TUTUMagicSDKDemo;
+			productName = TUTUMagicSDKDemo;
+			productReference = F8075BE61F7E4A99006D0BDA /* TUTUMagicSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8075BFD1F7E4A9A006D0BDA /* TUTUMagicSDKDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8075C151F7E4A9A006D0BDA /* Build configuration list for PBXNativeTarget "TUTUMagicSDKDemoTests" */;
+			buildPhases = (
+				F8075BFA1F7E4A9A006D0BDA /* Sources */,
+				F8075BFB1F7E4A9A006D0BDA /* Frameworks */,
+				F8075BFC1F7E4A9A006D0BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8075C001F7E4A9A006D0BDA /* PBXTargetDependency */,
+			);
+			name = TUTUMagicSDKDemoTests;
+			productName = TUTUMagicSDKDemoTests;
+			productReference = F8075BFE1F7E4A9A006D0BDA /* TUTUMagicSDKDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8075C081F7E4A9A006D0BDA /* TUTUMagicSDKDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8075C181F7E4A9A006D0BDA /* Build configuration list for PBXNativeTarget "TUTUMagicSDKDemoUITests" */;
+			buildPhases = (
+				F8075C051F7E4A9A006D0BDA /* Sources */,
+				F8075C061F7E4A9A006D0BDA /* Frameworks */,
+				F8075C071F7E4A9A006D0BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8075C0B1F7E4A9A006D0BDA /* PBXTargetDependency */,
+			);
+			name = TUTUMagicSDKDemoUITests;
+			productName = TUTUMagicSDKDemoUITests;
+			productReference = F8075C091F7E4A9A006D0BDA /* TUTUMagicSDKDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8075BDE1F7E4A99006D0BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = TUTUMagic;
+				TargetAttributes = {
+					F8075BE51F7E4A99006D0BDA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					F8075BFD1F7E4A9A006D0BDA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F8075BE51F7E4A99006D0BDA;
+					};
+					F8075C081F7E4A9A006D0BDA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F8075BE51F7E4A99006D0BDA;
+					};
+				};
+			};
+			buildConfigurationList = F8075BE11F7E4A99006D0BDA /* Build configuration list for PBXProject "TUTUMagicSDKDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				En,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = F8075BDD1F7E4A99006D0BDA;
+			productRefGroup = F8075BE71F7E4A99006D0BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8075BE51F7E4A99006D0BDA /* TUTUMagicSDKDemo */,
+				F8075BFD1F7E4A9A006D0BDA /* TUTUMagicSDKDemoTests */,
+				F8075C081F7E4A9A006D0BDA /* TUTUMagicSDKDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8075BE41F7E4A99006D0BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EA733B1F7E59C700E02D17 /* camera_icon@3x.png in Resources */,
+				F8EA733E1F7E59CA00E02D17 /* edit_icon@2x.png in Resources */,
+				F8EA73381F7E59C400E02D17 /* camera_icon@2x.png in Resources */,
+				F8075C421F7E4DA6006D0BDA /* Localizable.strings in Resources */,
+				F8EA73311F7E599D00E02D17 /* Images.xcassets in Resources */,
+				F8EA732E1F7E53E700E02D17 /* Main.storyboard in Resources */,
+				F8EA73321F7E59BC00E02D17 /* bg@2x.png in Resources */,
+				F8EA73351F7E59C100E02D17 /* bg@3x.png in Resources */,
+				F8EA73411F7E59CD00E02D17 /* edit_icon@3x.png in Resources */,
+				F8075C4E1F7E4DCD006D0BDA /* sample_watermark.png in Resources */,
+				F8075C511F7E4DD0006D0BDA /* TuSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8075BFC1F7E4A9A006D0BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EA73361F7E59C100E02D17 /* bg@3x.png in Resources */,
+				F8EA733F1F7E59CA00E02D17 /* edit_icon@2x.png in Resources */,
+				F8EA733C1F7E59C700E02D17 /* camera_icon@3x.png in Resources */,
+				F8075C431F7E4DA6006D0BDA /* Localizable.strings in Resources */,
+				F8EA73391F7E59C400E02D17 /* camera_icon@2x.png in Resources */,
+				F8075C4F1F7E4DCD006D0BDA /* sample_watermark.png in Resources */,
+				F8EA73421F7E59CD00E02D17 /* edit_icon@3x.png in Resources */,
+				F8075C461F7E4DB5006D0BDA /* Images.xcassets in Resources */,
+				F8075C521F7E4DD1006D0BDA /* TuSDK.bundle in Resources */,
+				F8EA73331F7E59BE00E02D17 /* bg@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8075C071F7E4A9A006D0BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EA73371F7E59C100E02D17 /* bg@3x.png in Resources */,
+				F8EA73401F7E59CA00E02D17 /* edit_icon@2x.png in Resources */,
+				F8EA733D1F7E59C800E02D17 /* camera_icon@3x.png in Resources */,
+				F8075C441F7E4DA7006D0BDA /* Localizable.strings in Resources */,
+				F8EA733A1F7E59C500E02D17 /* camera_icon@2x.png in Resources */,
+				F8075C501F7E4DCE006D0BDA /* sample_watermark.png in Resources */,
+				F8EA73431F7E59CE00E02D17 /* edit_icon@3x.png in Resources */,
+				F8075C471F7E4DB5006D0BDA /* Images.xcassets in Resources */,
+				F8075C531F7E4DD1006D0BDA /* TuSDK.bundle in Resources */,
+				F8EA73341F7E59BE00E02D17 /* bg@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		824D6B0EA94A071261352B1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TUTUMagicSDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A8A161EB53FF38C4B5DF1E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TUTUMagicSDKDemo/Pods-TUTUMagicSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F573C308FCD2EF4B4C00B899 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TUTUMagicSDKDemo/Pods-TUTUMagicSDKDemo-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+				"${PODS_ROOT}/TUTUMagicSDK/Localization/Base.lproj",
+				"${PODS_ROOT}/TUTUMagicSDK/Localization/en.lproj",
+				"${PODS_ROOT}/TUTUMagicSDK/Localization/zh-Hant.lproj",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TUTUMagicSDKDemo/Pods-TUTUMagicSDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8075BE21F7E4A99006D0BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EA732C1F7E53D600E02D17 /* CameraComponentSample.m in Sources */,
+				F8EA73291F7E53CA00E02D17 /* SampleBase.m in Sources */,
+				F8EA73261F7E53C100E02D17 /* DemoComponentListController.m in Sources */,
+				F8EA732A1F7E53CF00E02D17 /* AlbumComponentSample.m in Sources */,
+				F8EA732B1F7E53D100E02D17 /* AlbumMultipleComponentSample.m in Sources */,
+				F8EA73281F7E53C600E02D17 /* DemoRootViewController.m in Sources */,
+				F8EA73271F7E53C400E02D17 /* DemoRootView.m in Sources */,
+				F8EA732D1F7E53D800E02D17 /* EditMultipleComponentSample.m in Sources */,
+				F8075BF91F7E4A9A006D0BDA /* main.m in Sources */,
+				F8075BEB1F7E4A9A006D0BDA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8075BFA1F7E4A9A006D0BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8075C031F7E4A9A006D0BDA /* TUTUMagicSDKDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8075C051F7E4A9A006D0BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8075C0E1F7E4A9A006D0BDA /* TUTUMagicSDKDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8075C001F7E4A9A006D0BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8075BE51F7E4A99006D0BDA /* TUTUMagicSDKDemo */;
+			targetProxy = F8075BFF1F7E4A9A006D0BDA /* PBXContainerItemProxy */;
+		};
+		F8075C0B1F7E4A9A006D0BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8075BE51F7E4A99006D0BDA /* TUTUMagicSDKDemo */;
+			targetProxy = F8075C0A1F7E4A9A006D0BDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8075C1C1F7E4D9E006D0BDA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8075C1D1F7E4D9E006D0BDA /* Base */,
+				F8075C1F1F7E4D9E006D0BDA /* En */,
+				F8075C2C1F7E4D9E006D0BDA /* zh-Hans */,
+				F8075C2D1F7E4D9E006D0BDA /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F8EA73301F7E53E700E02D17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8EA732F1F7E53E700E02D17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8075C101F7E4A9A006D0BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8075C111F7E4A9A006D0BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8075C131F7E4A9A006D0BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05F90528D5E18980A93B613D /* Pods-TUTUMagicSDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U2KRZU6GT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TUTUMagicSDKDemo",
+				);
+				INFOPLIST_FILE = TUTUMagicSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.lasque.TUTUMagicSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8075C141F7E4A9A006D0BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE32C4713D12A4B02E414CC4 /* Pods-TUTUMagicSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9U2KRZU6GT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TUTUMagicSDKDemo",
+				);
+				INFOPLIST_FILE = TUTUMagicSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.lasque.TUTUMagicSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8075C161F7E4A9A006D0BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TUTUMagicSDKDemo",
+				);
+				INFOPLIST_FILE = TUTUMagicSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lasque.TUTUMagicSDKDemo.TUTUMagicSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TUTUMagicSDKDemo.app/TUTUMagicSDKDemo";
+			};
+			name = Debug;
+		};
+		F8075C171F7E4A9A006D0BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TUTUMagicSDKDemo",
+				);
+				INFOPLIST_FILE = TUTUMagicSDKDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lasque.TUTUMagicSDKDemo.TUTUMagicSDKDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TUTUMagicSDKDemo.app/TUTUMagicSDKDemo";
+			};
+			name = Release;
+		};
+		F8075C191F7E4A9A006D0BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TUTUMagicSDKDemo",
+				);
+				INFOPLIST_FILE = TUTUMagicSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lasque.TUTUMagicSDKDemo.TUTUMagicSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TUTUMagicSDKDemo;
+			};
+			name = Debug;
+		};
+		F8075C1A1F7E4A9A006D0BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TUTUMagicSDKDemo",
+				);
+				INFOPLIST_FILE = TUTUMagicSDKDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.lasque.TUTUMagicSDKDemo.TUTUMagicSDKDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TUTUMagicSDKDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8075BE11F7E4A99006D0BDA /* Build configuration list for PBXProject "TUTUMagicSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8075C101F7E4A9A006D0BDA /* Debug */,
+				F8075C111F7E4A9A006D0BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8075C121F7E4A9A006D0BDA /* Build configuration list for PBXNativeTarget "TUTUMagicSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8075C131F7E4A9A006D0BDA /* Debug */,
+				F8075C141F7E4A9A006D0BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8075C151F7E4A9A006D0BDA /* Build configuration list for PBXNativeTarget "TUTUMagicSDKDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8075C161F7E4A9A006D0BDA /* Debug */,
+				F8075C171F7E4A9A006D0BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8075C181F7E4A9A006D0BDA /* Build configuration list for PBXNativeTarget "TUTUMagicSDKDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8075C191F7E4A9A006D0BDA /* Debug */,
+				F8075C1A1F7E4A9A006D0BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8075BDE1F7E4A99006D0BDA /* Project object */;
+}

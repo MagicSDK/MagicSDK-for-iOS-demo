@@ -1,0 +1,21 @@
+PODS:
+  - GPUImage (0.1.7)
+  - TUTUMagicSDK (1.0.0):
+    - TUTUMagicSDK/Core (= 1.0.0)
+    - TUTUMagicSDK/GPUImage (= 1.0.0)
+    - TUTUMagicSDK/ImageGeeV1 (= 1.0.0)
+  - TUTUMagicSDK/Core (1.0.0)
+  - TUTUMagicSDK/GPUImage (1.0.0):
+    - GPUImage (~> 0.1.7)
+  - TUTUMagicSDK/ImageGeeV1 (1.0.0)
+
+DEPENDENCIES:
+  - TUTUMagicSDK (~> 1.0)
+
+SPEC CHECKSUMS:
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  TUTUMagicSDK: 0f43d906d09b4bb2b3ac88d630a1195ce5d9cf76
+
+PODFILE CHECKSUM: 3da779a1a1db25217bc82768cf6a868705d1abd1
+
+COCOAPODS: 1.3.1
